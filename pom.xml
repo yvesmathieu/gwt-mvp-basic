@@ -17,7 +17,7 @@
 		<!-- gwt configuration -->
 		<gwt.version>2.5.1</gwt.version>
 		<gwt.module>com.ippon.formation.gwt.IppContacts</gwt.module>
-		<gwt.target>IppContact.html</gwt.target>
+		<gwt.target>IppContacts.html</gwt.target>
 		<gwt.i18n>com.ippon.formation.gwt.client.ui.resources.I18nMessages</gwt.i18n>
 	</properties>
 

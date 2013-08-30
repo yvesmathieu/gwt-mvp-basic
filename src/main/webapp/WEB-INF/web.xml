@@ -4,10 +4,21 @@
               http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>contactsServlet</servlet-name>
+    <servlet-class>com.ippon.formation.gwt.server.ContactsServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>contactsServlet</servlet-name>
+    <url-pattern>/ippcontacts/contacts</url-pattern>
+  </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>welcome.html</welcome-file>
+    <welcome-file>IppContacts.html</welcome-file>
   </welcome-file-list>
 
 </web-app>
