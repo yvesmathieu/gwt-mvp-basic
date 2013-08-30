@@ -1,0 +1,47 @@
+table {
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	spacing: 0px;
+}
+
+td {
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	spacing: 0px;
+}
+
+th,td {
+	padding: 0px;
+}
+
+.gwt-DecoratorPanel .middleCenter {
+   height: 100%;
+   width: 100%;
+}
+.mainContainer {
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.menuContainer {
+	width: 100%;
+    background-color: #D0E4F6;
+}
+.contactsMenuContainer {
+	padding-bottom: 5px;
+}
+.editMenuContainer {
+	padding-top: 5px;
+}
+.contactsListContainer {
+	width: 100%;
+}
+.centered {
+	display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+.textContainer {
+	margin-top: 15px;
+}
